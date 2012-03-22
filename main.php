@@ -4,10 +4,10 @@
 
    if(is_fan() == true)
    {
-      echo '<img src="'.$fan_image.'" alt="nonfan">';
+      echo '<img src="'.$fan_image.'" alt="fan">';
    }
    else
    {
-      echo '<img src="'.$nonfan_image.'" alt="fan" >';
+      echo '<img src="'.$nonfan_image.'" alt="nonfan" >';
    }
 
