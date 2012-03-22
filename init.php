@@ -20,7 +20,7 @@ Zend_Loader_Autoloader::getInstance()->setFallbackAutoloader(true);
 
 //necessary files
 require_once ROOT_PATH.'/config.php';
-require_once ROOT_PATH.'/function.php';
+require_once ROOT_PATH.'/functions.php';
 
 // Initialize App-Manager connection
 $aa = new AA_AppManager(array(
