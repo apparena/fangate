@@ -46,22 +46,14 @@ $instance = $aa->getInstance();
 	<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 	
 	<div class="custom-header">
-		<?=$config['page_header_custom']['value']?>
 	</div>
-	
-	<div id="accordion">
-		<?php
-			for ($i=1;$i<=$config['nr_of_questions']['value'];$i++){
-				echo '<h3><a href="#">' . $config['q'.$i]['value'] . '</a></h3>';
-				echo '<div>' . $config['q' . $i .'_a1']['value'] . '</div>';
-			}
-		?>
-	</div>
+
+  <?php
+     require_once(dirname(__FILE__).'/main.php');
+  ?>
+
 	
 	<footer>	
-		<div class="custom-footer">
-			<?=$config['page_footer_custom']['value']?>
-		</div>
 		<div class="branding">
 			<?=$config['page_footer_branding']['value'];?>
 		</div>
