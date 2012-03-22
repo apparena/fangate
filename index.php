@@ -34,13 +34,10 @@ $instance = $aa->getInstance();
 	<link rel="stylesheet" type="text/css" href="css/jqueryui/<?=$config['ui_style']['value'];?>/jquery-ui.css" />
   -->
 	<!-- Include bootstrap css files -->
-  <!--
 	<style type="text/css">
 		<?=$config['css_bootstrap']['value'];?>
-		
-		<?=$config['style']['value'];?>
+		<?=$config['css']['value'];?>
 	</style>
-  -->
 	
 </head>
 <body>
@@ -48,13 +45,12 @@ $instance = $aa->getInstance();
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
 	<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 	
-	<div class="custom-header">
-	</div>
+
 
   <?php
      require_once(dirname(__FILE__).'/main.php');
   ?>
-
+	
 	
 	<footer>	
 		<div class="branding">
