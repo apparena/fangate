@@ -30,14 +30,17 @@ $instance = $aa->getInstance();
 	<meta name="viewport" content="width=device-width">
 	
 	<!-- Use jquery ui css style -->
+  <!--
 	<link rel="stylesheet" type="text/css" href="css/jqueryui/<?=$config['ui_style']['value'];?>/jquery-ui.css" />
-	
+  -->
 	<!-- Include bootstrap css files -->
+  <!--
 	<style type="text/css">
 		<?=$config['css_bootstrap']['value'];?>
 		
 		<?=$config['style']['value'];?>
 	</style>
+  -->
 	
 </head>
 <body>
